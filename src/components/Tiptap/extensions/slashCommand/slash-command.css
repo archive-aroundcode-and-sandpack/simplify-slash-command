@@ -1,0 +1,18 @@
+.slash-command-wrapper{
+  z-index: 50;
+  height: auto;
+  max-height: 330px;
+  width: 240px;
+  overflow-y: auto;
+  border-width: 1px;
+  border-color: #A8A29E; /* Assuming 'stone.200' is equivalent to this hex color */
+  background-color: white;
+  padding-left: 1px; /* 'px' for 'padding-x', assuming it means 'padding-left' */
+  padding-right: 1px; /* Similarly for right padding */
+  padding-top: 2px; /* 'py' for 'padding-y', assuming it means 'padding-top' */
+  padding-bottom: 2px; /* Similarly for bottom padding */
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06); /* Assuming 'md' refers to this shadow style */
+  transition-property: all;
+  transition-timing-function: ease; /* 'all' is not a valid timing function, assuming 'ease' */
+  transition-duration: 0.3s; /* You need to specify a duration, 'all' is not valid */
+}
